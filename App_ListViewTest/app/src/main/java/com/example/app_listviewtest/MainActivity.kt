@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
             // finally, notify the adapter for data set changed
             adapter.notifyDataSetChanged()
-            
+
             Snackbar.make(view, "New item added", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
